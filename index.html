@@ -628,7 +628,7 @@ section {
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-brand">
-                <span class="brand-text">� For My Beautiful Love Betelhem from Yared �</span>
+                <span class="brand-text"> For My Beautiful Love Betelhem from Yared </span>
             </div>
             <div class="nav-links">
                 <a href="#message" class="nav-link">Our Love</a>
@@ -661,7 +661,7 @@ section {
                         and your love gives me strength even when we're miles apart.
                     </p>
                     
-                    <div class="heart-divider">� �</div>
+                    <div class="heart-divider"> </div>
                     
                     <p class="signature">
                         With all my love,<br>
@@ -788,7 +788,7 @@ section {
                 </div>
                 
                 <div class="wish-card">
-                    <div class="wish-icon">�</div>
+                    <div class="wish-icon"> </div>
                     <h3 class="wish-title">Until We Meet Again</h3>
                     <p class="wish-text">
                         Though distance separates us now, I wish for the day when we'll be together again, 
@@ -823,7 +823,7 @@ section {
                     
                     <div class="promise-signature">
                         <p>Happy Birthday, my beautiful love.<br>
-                        <span class="signature-heart">� Forever Yours �</span></p>
+                        <span class="signature-heart"> Forever Yours </span></p>
                     </div>
                 </div>
                 
@@ -926,7 +926,7 @@ function createSparkles(element) {
     for (let i = 0; i < 5; i++) {
         setTimeout(() => {
             const sparkle = document.createElement('div');
-            sparkle.innerHTML = '✨';
+            sparkle.innerHTML = 'â¨';
             sparkle.style.position = 'absolute';
             sparkle.style.left = Math.random() * element.offsetWidth + 'px';
             sparkle.style.top = Math.random() * element.offsetHeight + 'px';
@@ -1021,7 +1021,7 @@ function showPhotoModal(src, title, description) {
     `;
     
     const closeBtn = document.createElement('button');
-    closeBtn.innerHTML = '×';
+    closeBtn.innerHTML = 'Ã';
     closeBtn.style.cssText = `
         position: absolute;
         top: -40px;
@@ -1067,13 +1067,13 @@ function initializeMusicPlayer() {
         musicNote.addEventListener('click', function() {
             if (!isPlaying) {
                 this.style.animation = 'musicSpin 2s linear infinite';
-                this.querySelector('span').textContent = '🎶';
-                showMessage('Playing our love song... 💕');
+                this.querySelector('span').textContent = 'ð¶';
+                showMessage('Playing our love song... ð');
                 isPlaying = true;
             } else {
                 this.style.animation = 'musicFloat 3s ease-in-out infinite';
-                this.querySelector('span').textContent = '🎵';
-                showMessage('Music paused 🎵');
+                this.querySelector('span').textContent = 'ðµ';
+                showMessage('Music paused ðµ');
                 isPlaying = false;
             }
         });
@@ -1151,14 +1151,14 @@ function addInteractiveElements() {
     if (mainTitle) {
         mainTitle.addEventListener('click', function() {
             createConfetti();
-            showMessage('Happy Birthday, Beautiful! 🎉💕');
+            showMessage('Happy Birthday, Beautiful! ðð');
         });
     }
 }
 
 // Create heart burst effect
 function createHeartBurst(element) {
-    const hearts = ['💕', '💖', '💗', '💝', '💞'];
+    const hearts = ['ð', 'ð', 'ð', 'ð', 'ð'];
     
     for (let i = 0; i < 6; i++) {
         setTimeout(() => {
@@ -1306,19 +1306,19 @@ document.head.appendChild(animations);
 // Keyboard shortcuts
 document.addEventListener('keydown', function(e) {
     if (e.key.toLowerCase() === 'l') {
-        showMessage('I love you more than words can say 💕');
+        showMessage('I love you more than words can say ð');
         createHeartRain();
     }
     
     if (e.key.toLowerCase() === 'h') {
-        showMessage('Happy Birthday, my beautiful angel! 🎂✨');
+        showMessage('Happy Birthday, my beautiful angel! ðâ¨');
         createConfetti();
     }
 });
 
 // Create heart rain effect
 function createHeartRain() {
-    const hearts = ['💕', '💖', '💗', '💝', '💞'];
+    const hearts = ['ð', 'ð', 'ð', 'ð', 'ð'];
     
     for (let i = 0; i < 20; i++) {
         setTimeout(() => {
@@ -1356,7 +1356,7 @@ heartRainStyle.textContent = `
 `;
 document.head.appendChild(heartRainStyle);
 
-console.log('💕 Birthday website loaded with love! 💕');
+console.log('ð Birthday website loaded with love! ð');
 </script>
 </body>
 </html>
